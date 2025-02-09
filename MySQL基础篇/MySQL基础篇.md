@@ -131,6 +131,8 @@ SELECT * FROM `order`;
 
 ```mysql
 SELECT '小张科技' as "公司名", employee_id, last_name FROM employees;
+
+#字符串常量用单引号括起来，双引号只能括列名、表名等标识符
 ```
 
 ## 3. 显示表结构
